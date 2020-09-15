@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "362460678340",
+    "firebase_url": "https://etcc-80410.firebaseio.com",
+    "project_id": "etcc-80410",
+    "storage_bucket": "etcc-80410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362460678340:android:5c32f41bce809df9",
+        "android_client_info": {
+          "package_name": "anno.etcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362460678340-ggo6eie9nun449pc76nkjsu1khaj4nve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfUU0VdxVrQfvE5-TAEhNd_HGRiMbN3WQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

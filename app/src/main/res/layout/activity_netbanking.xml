@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="vertical"
+    tools:context="anno.ETCC.netbanking">
+    <android.support.v7.widget.CardView
+        android:id="@+id/netcard"
+        android:layout_width="match_parent"
+        app:cardElevation="15dp"
+        app:cardBackgroundColor="@color/aa"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Net Banking"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            />
+    </android.support.v7.widget.CardView>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/netcard"
+        android:layout_height="match_parent"
+        android:id="@+id/scrloll"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:paddingBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="25dp"
+        android:text="Enter Recharge Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvenetrehamnt"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:textAlignment="center"
+        android:layout_below="@+id/tvenetrehamnt"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Amount"
+        android:id="@+id/pricekiti"/>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/tablehelp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pricekiti">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp"
+
+            android:id="@+id/que"
+            android:src="@drawable/questionmark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note : Enter Amount more than ₹100 "/>
+
+    </TableRow>
+
+        <LinearLayout
+            android:id="@+id/emailnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/tablehelp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile"
+                android:paddingTop="10dp"
+                android:elevation="10dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:elevation="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etusernamenet"
+                android:hint="Enter Username"/>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/emailpassnet"
+        android:layout_below="@+id/emailnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="35dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/password"
+            android:paddingTop="10dp"
+            android:elevation="10dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:layout_marginLeft="15dp"
+            android:elevation="20dp"
+            android:textAlignment="center"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passdnet"
+            android:hint="Enter Password"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:paddingBottom="95dp"
+        android:layout_below="@+id/emailpassnet"
+        />
+</RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="Pay"
+        android:textColor="@color/white"
+        android:background="@color/btcolor"
+        android:textSize="20dp"
+        android:id="@+id/netpaybt"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

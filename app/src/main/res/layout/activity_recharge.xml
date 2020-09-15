@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="vertical"
+    tools:context="anno.ETCC.recharge">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/reccard"
+        android:layout_width="match_parent"
+        app:cardElevation="15dp"
+        app:cardBackgroundColor="@color/aa"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Recharge"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+        android:layout_width="match_parent"
+            android:textAlignment="center"
+        android:layout_height="wrap_content"
+            />
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    android:layout_below="@+id/reccard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paysel"
+            android:layout_below="@+id/tablehelp"
+            android:text="Select Payment mode"
+            android:layout_marginTop="35dp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/paysel"
+            android:text="Credit/Debit"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:id="@+id/creditbt"
+            android:textColor="@color/white"
+            android:background="@color/btcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/creditbt"
+            android:text="Net Banking"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:id="@+id/netbt"
+            android:textColor="@color/white"
+            android:background="@color/btcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ETC</string>
+    <string-array name="citynames">
+        <item>Thane</item>
+        <item>Vashi</item>
+        <item>Dadar</item>
+    </string-array>
+    <string-array name="region">
+        <item>Thane</item>
+        <item>Vashi</item>
+        <item>Dadar</item>
+        <item>Kalyan</item>
+        <item>Bandra</item>
+        <item>CST</item>
+        <item>Kharghar</item>
+    </string-array>
+    <string-array name="typeofcard">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+    </string-array>
+    <string name="about1">Electronic toll collection (ETC) aims to eliminate the delay on toll roads by collecting tolls electronically. ETC determines whether the cars passing are enrolled in the program, alerts enforcers for those that are not, and electronically debits the accounts of registered car owners without requiring them to stop.
+</string>
+    <string name="about2"> In this project we are providing a more convenient and efficient way to reduce the traffic.This is done by paying charges online through the ID .This all mentioned above will be implemented using a RFID chip .</string>
+    <string name="about3">All the services would be made available to users through smartphone application and website,so user will able to pay recharge online as well as track his records etc.</string>
+    <string name="abt4">The application also provides different modes of payements like netbanking and by using credit/debit card.The user can generate monthly report regarding his payments.
+
+</string>
+</resources>
